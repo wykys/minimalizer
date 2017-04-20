@@ -1,0 +1,54 @@
+\documentclass[a3paper]{article}
+\usepackage[utf8]{inputenc}
+
+\usepackage[total={30cm,25cm}, top=1cm, left=0.5cm, includefoot]{geometry}
+\begin{document}
+\section{Karnaughova mapa (modificated by wykys)}
+\subsection{rozložení proměnných}
+\begin{tabular}[c]{| c | c | c | c | c | c | c | c |}
+
+\hline
+[]&['A']&['C']&['C', 'A']&['E']&['E', 'A']&['E', 'C']&['E', 'C', 'A']\\
+\hline
+['B']&['B', 'A']&['C', 'B']&['C', 'B', 'A']&['E', 'B']&['E', 'B', 'A']&['E', 'C', 'B']&['E', 'C', 'B', 'A']\\
+\hline
+['D']&['D', 'A']&['D', 'C']&['D', 'C', 'A']&['E', 'D']&['E', 'D', 'A']&['E', 'D', 'C']&['E', 'D', 'C', 'A']\\
+\hline
+['D', 'B']&['D', 'B', 'A']&['D', 'C', 'B']&['D', 'C', 'B', 'A']&['E', 'D', 'B']&['E', 'D', 'B', 'A']&['E', 'D', 'C', 'B']&['E', 'D', 'C', 'B', 'A']\\
+\hline
+\end{tabular}
+\newline
+\newline
+\newline
+\begin{tabular}[c]{| c | c | c | c | c | c | c | c |}
+
+\hline
+0&1&4&5&16&17&20&21\\
+\hline
+2&3&6&7&18&19&22&23\\
+\hline
+8&9&12&13&24&25&28&29\\
+\hline
+10&11&14&15&26&27&30&31\\
+\hline
+\end{tabular}
+\newline
+\newline
+\newline
+\begin{tabular}[c]{| c | c | c | c | c | c | c | c |}
+
+\hline
+1&1&0&0&0&1&0&0\\
+\hline
+1&0&1&1&1&0&1&1\\
+\hline
+1&1&1&0&0&1&1&0\\
+\hline
+1&0&1&1&1&0&1&1\\
+\hline
+\end{tabular}
+\newline\newline
+\verb|x_size|: 8
+\newline
+\verb|y_size|: 4
+\end{document}

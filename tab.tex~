@@ -1,0 +1,11 @@
+\documentclass{article}
+
+\usepackage[utf8]{inputenc}
+
+
+\begin{document}
+  \begin{tabular}[c]{| c | c | c | c |}
+    [] & A & AB & B \\
+    C & CA & CBA & CB \\
+  \end{tabular}
+\end{document}
